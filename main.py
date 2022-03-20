@@ -1,6 +1,6 @@
 import os, sys
 import psycopg2
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__,template_folder=’templates’)
 #functions to be added here for
